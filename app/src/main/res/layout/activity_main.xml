@@ -32,12 +32,12 @@
 
     <TextView
         android:id="@+id/lblCurrent"
-        android:layout_width="360dp"
-        android:layout_height="51dp"
+        android:layout_width="361dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:background="#4AC376"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSearch" />
 
@@ -46,30 +46,26 @@
         android:layout_width="361dp"
         android:layout_height="48dp"
         android:background="#4A8FC3"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblCurrent" />
 
     <TextView
         android:id="@+id/lblmax"
-        android:layout_width="359dp"
-        android:layout_height="50dp"
+        android:layout_width="361dp"
+        android:layout_height="48dp"
         android:background="#FFC107"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblmin" />
 
     <TextView
         android:id="@+id/textViewWeather"
-        android:layout_width="360dp"
+        android:layout_width="361dp"
         android:layout_height="46dp"
         android:background="#F45C36"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblmax" />
 
